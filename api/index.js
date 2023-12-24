@@ -11,7 +11,7 @@ const engineerRoutes = require("./routes/engineer.js");
 // Connecting to database
 mongoose
   .connect(
-    "mongodb+srv://vayunekbote02:hRILdeiMoK8Mf3PL@cluster0.qxy9x8k.mongodb.net/ts?retryWrites=true&w=majority"
+    "Enter your own mongodb connection string here."
   )
   .then(() => {
     console.log("Connected to MongoDB");
